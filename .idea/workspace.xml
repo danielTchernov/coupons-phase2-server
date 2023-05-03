@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="039cf8f0-6e46-40df-88be-63cc9efdd29d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/dto/ServerErrorData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/dto/SuccessfulLoginData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/dto/UserLoginData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/exceptionHandler/ExceptionControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/filter/CORSFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/mapper/CompanyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/utils/Validators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/server/TimerTask/CouponsRemove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/TimerTask/CouponsRemove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/server/controllers/CategoriesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/controllers/CategoriesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/server/controllers/CompaniesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/controllers/CompaniesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/server/controllers/CouponsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/controllers/CouponsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/server/controllers/CustomersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/controllers/CustomersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/server/controllers/PurchasesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/controllers/PurchasesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/server/controllers/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/controllers/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/server/dal/ICategoryDal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/dal/ICategoryDal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/server/dal/ICompanyDal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/dal/ICompanyDal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/server/dal/ICouponDal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/dal/ICouponDal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/server/dal/IPurchaseDal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/dal/IPurchaseDal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/server/dal/IUserDal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/dal/IUserDal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/server/dto/CouponCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/dto/CouponCompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/server/entities/CompanyEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/entities/CompanyEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/server/entities/CouponEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/entities/CouponEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/server/entities/CustomerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/entities/CustomerEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/server/entities/PurchaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/entities/PurchaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/server/entities/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/entities/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/server/enums/ErrorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/enums/ErrorType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/server/logic/CategoryLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/logic/CategoryLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/server/logic/CompanyLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/logic/CompanyLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/server/logic/CouponsLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/logic/CouponsLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/server/logic/CustomerLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/logic/CustomerLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/server/logic/PurchaseLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/logic/PurchaseLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daniel/server/logic/UserLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daniel/server/logic/UserLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringBootServerStart-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringBootServerStart-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/daniel/server/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/daniel/server/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/daniel/server/TimerTask/CouponsRemove.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/daniel/server/TimerTask/CouponsRemove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/daniel/server/dal/ICouponDal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/daniel/server/dal/ICouponDal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/daniel/server/dal/IPurchaseDal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/daniel/server/dal/IPurchaseDal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/daniel/server/dto/CouponCompany.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/daniel/server/dto/CouponCompany.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/daniel/server/entities/CompanyEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/daniel/server/entities/CompanyEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/daniel/server/entities/CouponEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/daniel/server/entities/CouponEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/daniel/server/entities/CustomerEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/daniel/server/entities/CustomerEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/daniel/server/entities/PurchaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/daniel/server/entities/PurchaseEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/daniel/server/entities/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/daniel/server/entities/UserEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/daniel/server/enums/ErrorType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/daniel/server/enums/ErrorType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/daniel/server/logic/CouponsLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/daniel/server/logic/CouponsLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/daniel/server/logic/PurchaseLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/daniel/server/logic/PurchaseLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isDesignerTabSelected" value="false" />
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ImKVpWhrjkq65en8tTl4ahdv0O" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/97253/Desktop/Development/inteliji/Tests/PreTest&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Properties&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.daniel.server.enums" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\97253\Desktop\Development\inteliji\SpringBootServerStart\src\main\java\com\daniel\server\exceptionHandler" />
+      <recent name="C:\Users\97253\Desktop\Development\inteliji\SpringBootServerStart\src\main\java\com\daniel\server\cors" />
+      <recent name="C:\Users\97253\Desktop\HomeWork\inteliji\SpringBootServerStart\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.daniel.server.Main" />
+      <module name="SpringBootServerStart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.daniel.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="039cf8f0-6e46-40df-88be-63cc9efdd29d" name="Changes" comment="" />
+      <created>1670781347225</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670781347225</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/daniel/server/logic/UserLogic.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/daniel/server/TimerTask/CouponsRemove.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/daniel/server/logic/UserLogic.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/daniel/server/logic/CouponsLogic.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/daniel/server/logic/CouponsLogic.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/daniel/server/controllers/UsersController.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/daniel/server/logic/UserLogic.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/daniel/server/entities/UserEntity.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/daniel/server/entities/UserEntity.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/daniel/server/controllers/UsersController.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/daniel/server/controllers/UsersController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/daniel/server/logic/UserLogic.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/daniel/server/logic/UserLogic.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/daniel/server/logic/UserLogic.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/daniel/server/logic/UserLogic.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/daniel/server/logic/UserLogic.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/daniel/server/logic/UserLogic.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/daniel/server/logic/UserLogic.java</url>
+          <line>52</line>
+          <properties class="com.daniel.server.logic.UserLogic" method="createUser">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/daniel/server/controllers/UsersController.java</url>
+          <line>30</line>
+          <properties class="com.daniel.server.controllers.UsersController" method="createUser">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/daniel/server/controllers/UsersController.java</url>
+          <line>37</line>
+          <properties class="com.daniel.server.controllers.UsersController" method="login">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/daniel/server/logic/UserLogic.java</url>
+          <line>41</line>
+          <properties class="com.daniel.server.logic.UserLogic" method="login">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

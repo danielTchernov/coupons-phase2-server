@@ -1,0 +1,9 @@
+com\daniel\server\dto\UserLoginData.class
+com\daniel\server\enums\UserType.class
+com\daniel\server\dto\SuccessfulLoginData.class
+com\daniel\server\beans\Coupons.class
+com\daniel\server\controllers\CompaniesController.class
+com\daniel\server\beans\User.class
+com\daniel\server\controllers\UsersController.class
+com\daniel\server\consts\Const.class
+com\daniel\server\utils\JWTUtils.class
